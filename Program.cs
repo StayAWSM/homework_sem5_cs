@@ -137,7 +137,7 @@ void task3()
 void Main()
 {
     Console.Clear();
-    Console.WriteLine("Введите от 1 до 3 для выбора задачи, или 4 для выхода из программы");
+    Console.WriteLine("**************************************** \n Выберите задачу, которую хотите решить:\n\t1 - Задача 34 \n\t2 - Задача 36 \n\t3 - Задача 38 \n\t4 - Выход");
     int num = Convert.ToInt32(Console.ReadLine());
     switch (num)
     {
